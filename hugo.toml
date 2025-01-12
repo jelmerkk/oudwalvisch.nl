@@ -1,0 +1,28 @@
+baseURL = "https://oudwalvisch.nl/"
+title = "Oud Walvisch"
+theme = "PaperMod"
+defaultContentLanguage = "nl"
+languageCode = "nl"
+
+[params]
+  description = "Website van Oud Walvisch"
+  defaultTheme = "light"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+[params.homeInfoParams]
+  Title = "Welkom bij Oud Walvisch 🏊‍♂️"
+  Content = "Een historische zwemvereniging in Rotterdam"
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 10
+    
+[[menu.main]]
+  identifier = "posts"
+  name = "Nieuws"
+  url = "/posts/"
+  weight = 20
