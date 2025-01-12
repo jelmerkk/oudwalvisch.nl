@@ -29,7 +29,7 @@ languageCode = "nl"
   identifier = "contact"
   name = "Contact"
   url = "/contact/"
-  weight = 40
+  weight = 50
 
 [[menu.main]]
   identifier = "gszc"
@@ -39,3 +39,8 @@ languageCode = "nl"
   # Deze parameter zorgt ervoor dat de link in een nieuw tabblad opent
   params = { target = "_blank" }
 
+[[menu.main]]
+  identifier = "donateur"
+  name = "Donateur worden"
+  url = "/aanmelden/"
+  weight = 40
