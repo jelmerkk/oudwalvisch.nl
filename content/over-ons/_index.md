@@ -8,6 +8,17 @@ draft: false
 
 Hier komt informatie over de geschiedenis van Oud Walvisch.
 
-## Onze Vereniging
+## Bestuur
 
-Hier komt informatie over de huidige vereniging.
+Het bestuur van de Stichting Oud-Walvisch bestaat momenteel uit:
+
+Wies van’t Slot (voorzitter)
+Casper van Diepen (penningmeester)
+Kees Lazonder (secretaris)
+Sven Spijkerman
+Juliette van Balen
+Jelmer Koekkoek
+Uno Sissingh
+Hester Kingma
+
+
