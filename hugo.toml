@@ -1,17 +1,17 @@
 baseURL = "https://oudwalvisch.nl/"
-title = "Oud Walvisch"
+title = "Stichting Oud Walvisch"
 theme = "PaperMod"
 defaultContentLanguage = "nl"
 languageCode = "nl"
 
 [params]
-  description = "Website van Oud Walvisch"
+  description = "Website van de Stichting Oud Walvisch"
   defaultTheme = "light"
   ShowBreadCrumbs = true
 
 [params.homeInfoParams]
-  Title = "Welkom bij Oud Walvisch 🏊‍♂️"
-  Content = "De Stichting Oud Walvisch is ...."
+  # Title = "Welkom bij Oud Walvisch 🏊‍♂️"
+  # Content = "De Stichting Oud Walvisch is ...."
 
 [[menu.main]]
   identifier = "home"
