@@ -29,4 +29,13 @@ languageCode = "nl"
   identifier = "contact"
   name = "Contact"
   url = "/contact/"
+  weight = 40
+
+[[menu.main]]
+  identifier = "gszc"
+  name = "Moederdier"
+  url = "https://www.gszcdewalvisch.nl"
   weight = 30
+  # Deze parameter zorgt ervoor dat de link in een nieuw tabblad opent
+  params = { target = "_blank" }
+
