@@ -4,14 +4,7 @@ date: 2025-01-12
 draft: false
 ---
 
-## Contact Informatie
+## Stuur ons een bericht
 
-**Oud Walvisch**  
-[Adresgegevens]
+{{< contactform >}}
 
-**E-mail:** [e-mailadres]  
-**Telefoon:** [telefoonnummer]
-
-## Locatie
-
-[Eventueel informatie over de zwemlocatie]
