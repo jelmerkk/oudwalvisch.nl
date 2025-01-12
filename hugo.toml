@@ -7,13 +7,11 @@ languageCode = "nl"
 [params]
   description = "Website van Oud Walvisch"
   defaultTheme = "light"
-  ShowReadingTime = true
-  ShowPostNavLinks = true
   ShowBreadCrumbs = true
 
 [params.homeInfoParams]
   Title = "Welkom bij Oud Walvisch 🏊‍♂️"
-  Content = "Een historische zwemvereniging in Rotterdam"
+  Content = "De Stichting Oud Walvisch is ...."
 
 [[menu.main]]
   identifier = "home"
@@ -22,7 +20,13 @@ languageCode = "nl"
   weight = 10
     
 [[menu.main]]
-  identifier = "posts"
-  name = "Nieuws"
-  url = "/posts/"
+  identifier = "over-ons"
+  name = "Over Ons"
+  url = "/over-ons/"
   weight = 20
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 30
