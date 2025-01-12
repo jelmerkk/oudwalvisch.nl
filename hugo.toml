@@ -7,7 +7,7 @@ languageCode = "nl"
 [params]
   description = "Website van de Stichting Oud Walvisch"
   defaultTheme = "light"
-  ShowBreadCrumbs = true
+  ShowBreadCrumbs = false
 
 [params.homeInfoParams]
   # Title = "Welkom bij Oud Walvisch 🏊‍♂️"
