@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Oud Walvisch</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>nl</language>
-    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 20:22:53 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test2222</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Sun, 12 Jan 2025 20:22:53 +0100</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Eerste Bericht</title>
       <link>http://localhost:1313/posts/eerste-bericht/</link>
