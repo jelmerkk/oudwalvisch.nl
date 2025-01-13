@@ -1,6 +1,6 @@
 baseURL = "https://jelmerkk.github.io/oudwalvisch.nl/"
 title = "Stichting Oud Walvisch"
-theme = "PaperMod"
+theme = ["PaperMod"]
 defaultContentLanguage = "nl"
 languageCode = "nl"
 
@@ -14,7 +14,8 @@ params:
     css:
       - css/custom.css
   homeInfoParams: {}
-  
+  disableThemeToggle: true
+
 menu:
   main:
     - identifier: home
