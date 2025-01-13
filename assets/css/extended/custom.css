@@ -1,5 +1,5 @@
  .header-image {
-    background-image: url('/oudwalvisch.nl/images/header-desktop.png');
+    background-image: url('/images/header-desktop.png');
     background-size: 100%;
     background-repeat: no-repeat;
     max-width: var(--nav-width);
@@ -15,7 +15,7 @@
 @media (max-width: 400px) {
     .header-image {
         height: 120px;
-        background-image: url('/oudwalvisch.nl/images/header-mobile.png');
+        background-image: url('/images/header-mobile.png');
         margin-top: 10px;
         display: block;
         width: 100%; 
