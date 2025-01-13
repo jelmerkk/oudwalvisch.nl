@@ -5,10 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Contact | Stichting Oud Walvisch</title>
+<title>Contact met de SOW | Stichting Oud Walvisch</title>
 <meta name="keywords" content="">
-<meta name="description" content="Stuur ons een bericht
-
+<meta name="description" content="
   
       Naam:
       
@@ -35,7 +34,7 @@
 ">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/oudwalvisch.nl/contact/">
-<link crossorigin="anonymous" href="/oudwalvisch.nl/assets/css/stylesheet.49c158de1e4847d81435b290a9c689f3055d9626372a07726d5ef4f9d0ed649b.css" integrity="sha256-ScFY3h5IR9gUNbKQqcaJ8wVdliY3KgdybV70&#43;dDtZJs=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/oudwalvisch.nl/assets/css/stylesheet.e5551ae95c5f9b322804cfb8dccf72891f4009010bb9de694b01ad7a9ef5a746.css" integrity="sha256-5VUa6VxfmzIoBM&#43;43M9yiR9ACQELud5pSwGtep71p0Y=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/oudwalvisch.nl/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/oudwalvisch.nl/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/oudwalvisch.nl/favicon-32x32.png">
@@ -53,7 +52,7 @@
         }
 
     </style>
-</noscript>
+</noscript><img class="header-image" src="/oudwalvisch.nl/images/header-desktop-mockup.png" alt="Stichting Oud Walvisch" />
 </head>
 
 <body class="list" id="top">
@@ -63,9 +62,20 @@
         <div class="logo">
             <a href="http://localhost:1313/oudwalvisch.nl/" accesskey="h" title="Stichting Oud Walvisch (Alt + H)">Stichting Oud Walvisch</a>
             <div class="logo-switches">
+                <ul class="lang-switch"><li>|</li>
+                </ul>
             </div>
         </div>
-        <ul id="menu">
+
+        
+        <button id="menu-trigger" aria-haspopup="menu" aria-label="Menu Button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+        <ul class="menu hidden">
             <li>
                 <a href="http://localhost:1313/oudwalvisch.nl/" title="Home">
                     <span>Home</span>
@@ -99,15 +109,13 @@
             </li>
         </ul>
     </nav>
-</header>
-<main class="main"> 
+</header><main class="main"> 
 <header class="page-header">
   <h1>
-    Contact
+    Contact met de SOW
   </h1>
 </header>
-<div class="post-content"><h2 id="stuur-ons-een-bericht">Stuur ons een bericht<a hidden class="anchor" aria-hidden="true" href="#stuur-ons-een-bericht">#</a></h2>
-<form action="https://formspree.io/f/xrbbjgeg" method="POST" class="contact-form">
+<div class="post-content"><form action="https://formspree.io/f/xrbbjgeg" method="POST" class="contact-form">
   <div class="form-group">
       <label for="name">Naam:</label>
       <input type="text" name="name" id="name" required>
@@ -151,7 +159,22 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script>
+    
+    
+    let b = document.querySelector("#menu-trigger")
+    let m = document.querySelector(".menu")
+    b.addEventListener("click", function () {
+        m.classList.toggle("hidden")
+    });
+    
+    document.body.addEventListener('click', function (event) {
+        if (!b.contains(event.target)) {
+            m.classList.add("hidden")
+        }
+    });
+    
+</script>
 
 <script>
     let menu = document.getElementById('menu')

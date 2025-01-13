@@ -14,7 +14,7 @@
 Daarnaast is de stichting rots in de branding voor het ht. bestuur van De Walvisch. Het bestuur van de SOW staat het bestuur van de vereniging bij met wijze raad &amp; financieel advies.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/oudwalvisch.nl/over-de-sow/">
-<link crossorigin="anonymous" href="/oudwalvisch.nl/assets/css/stylesheet.49c158de1e4847d81435b290a9c689f3055d9626372a07726d5ef4f9d0ed649b.css" integrity="sha256-ScFY3h5IR9gUNbKQqcaJ8wVdliY3KgdybV70&#43;dDtZJs=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/oudwalvisch.nl/assets/css/stylesheet.e5551ae95c5f9b322804cfb8dccf72891f4009010bb9de694b01ad7a9ef5a746.css" integrity="sha256-5VUa6VxfmzIoBM&#43;43M9yiR9ACQELud5pSwGtep71p0Y=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/oudwalvisch.nl/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/oudwalvisch.nl/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/oudwalvisch.nl/favicon-32x32.png">
@@ -32,7 +32,7 @@ Daarnaast is de stichting rots in de branding voor het ht. bestuur van De Walvis
         }
 
     </style>
-</noscript>
+</noscript><img class="header-image" src="/oudwalvisch.nl/images/header-desktop-mockup.png" alt="Stichting Oud Walvisch" />
 </head>
 
 <body class="list" id="top">
@@ -42,9 +42,20 @@ Daarnaast is de stichting rots in de branding voor het ht. bestuur van De Walvis
         <div class="logo">
             <a href="http://localhost:1313/oudwalvisch.nl/" accesskey="h" title="Stichting Oud Walvisch (Alt + H)">Stichting Oud Walvisch</a>
             <div class="logo-switches">
+                <ul class="lang-switch"><li>|</li>
+                </ul>
             </div>
         </div>
-        <ul id="menu">
+
+        
+        <button id="menu-trigger" aria-haspopup="menu" aria-label="Menu Button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+        <ul class="menu hidden">
             <li>
                 <a href="http://localhost:1313/oudwalvisch.nl/" title="Home">
                     <span>Home</span>
@@ -78,8 +89,7 @@ Daarnaast is de stichting rots in de branding voor het ht. bestuur van De Walvis
             </li>
         </ul>
     </nav>
-</header>
-<main class="main"> 
+</header><main class="main"> 
 <header class="page-header">
   <h1>
     Over de SOW
@@ -120,7 +130,22 @@ Daarnaast is de stichting rots in de branding voor het ht. bestuur van De Walvis
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
         <path d="M12 6H0l6-6z" />
     </svg>
-</a>
+</a><script>
+    
+    
+    let b = document.querySelector("#menu-trigger")
+    let m = document.querySelector(".menu")
+    b.addEventListener("click", function () {
+        m.classList.toggle("hidden")
+    });
+    
+    document.body.addEventListener('click', function (event) {
+        if (!b.contains(event.target)) {
+            m.classList.add("hidden")
+        }
+    });
+    
+</script>
 
 <script>
     let menu = document.getElementById('menu')

@@ -43,6 +43,7 @@ menu:
       name: "Moederdier"
       url: "https://www.gszcdewalvisch.nl"
       weight: 30
+      button: false
       params:
         target: "_blank"
     - identifier: "donateur"

@@ -1,10 +1,8 @@
 ---
 date: "2025-01-12"
 draft: false
-title: Contact
+title: Contact met de SOW
 ---
-
-## Stuur ons een bericht
 
 {{< contactform >}}
 

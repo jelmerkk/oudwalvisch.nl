@@ -1,13 +1,15 @@
 ---
-cover:
-  alt: Stichting Oud Walvisch
-  caption: Caption
-  image: "headddder-desktop-mockup.png"
-  relative: true
+# cover:
+#   alt: Stichting Oud Walvisch
+#   image: "/oudwalvisch.nl/images/header-desktop-mockup.png"
+#   relative: true
 date: "2025-01-12"
 draft: false
 title: Stichting Oud-leden der GSZC “De Walvisch”
-layout: home
+# layout: home
+# resources:
+#   - name: cover
+#     src: /oudwalvisch.nl/images/header-desktop-mockup.png
 ---
 
 Er komt voor alle Walvischers een dag dat er afgestudeerd wordt. Nou ja, voor de helft van alle leden ongeveer. Als op de trappen van het academiegebouw de levertraan ingenomen is en de haring is gehapt, wordt het tijd om je in het echte leven te storten.

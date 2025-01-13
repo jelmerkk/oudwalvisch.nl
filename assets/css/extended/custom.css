@@ -1,10 +1,34 @@
-header {
-    background-image: url('/images/header-desktop-mockup.png');
-    background-size: cover;
+ .header-image {
+    background-image: url('/oudwalvisch.nl/images/header-desktop-mockup.png');
+    background-size: 100%;
+    width:var(--nav-width);
     background-position: center;
-    height: 300px;
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, 0);
+    
 }
 
 @media (max-width: 768px) {
-    header {height: 150px;}
+    .header-image {height: 40%;}
+} 
+
+
+:root {
+    --primary: #000000;
+    --secondary:
+    --content:var(--primary);
+    --code-bg: #ffffff;
+    --main-width: 1024px;
+    /* --nav-width: 1024px; */
+}
+
+body {
+    background-color: white;
+}
+
+.logo {
+    visibility: hidden;
+    height: 0px;
 }
