@@ -4,8 +4,6 @@ draft: false
 title: Over de SOW
 ---
 
-## Over de SOW
-
 De Stichting Oud-leden der GSZC “De Walvisch”  is opgericht op 12 juni 1992. In de statuten van de stichting staat: 
 
 > "De doelstelling van de stichting Oud-leden van “De Walvisch” is het aanhouden en versterken van de banden tussen G.S.Z.C. “De Walvisch” en haar oud-leden. Onder deze oud-leden worden ook de damesch van de G.V.S.Z. “Zwam niet, maar Zwem” gerekend."  

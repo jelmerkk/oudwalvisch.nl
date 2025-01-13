@@ -26,8 +26,8 @@ menu:
       url: "/"
       weight: 10
     - identifier: "over-ons"
-      name: "Over Ons"
-      url: "/over-ons/"
+      name: "Over de SOW"
+      url: "/over-de-sow/"
       weight: 20
     - identifier: "contact"
       name: "Contact"
