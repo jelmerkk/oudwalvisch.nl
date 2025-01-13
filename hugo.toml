@@ -8,6 +8,8 @@ languageCode = "nl"
   description = "Website van de Stichting Oud Walvisch"
   defaultTheme = "light"
   ShowBreadCrumbs = false
+  header = true
+  header_image = "assets/images/header-desktop-mockup.png"
 
 [params.homeInfoParams]
   # Title = "Welkom bij Oud Walvisch 🏊‍♂️"
