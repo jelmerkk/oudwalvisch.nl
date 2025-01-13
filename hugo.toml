@@ -9,7 +9,7 @@ languageCode = "nl"
   defaultTheme = "light"
   ShowBreadCrumbs = false
   header = true
-  header_image = "assets/images/header-desktop-mockup.png"
+  header_image = "/images/header-desktop-mockup.png"
 
 [params.assets]
   css = ["css/custom.css"]

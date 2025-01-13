@@ -1,5 +1,5 @@
 header {
-    background-image: url('assets/images/header-desktop-mockup.png');
+    background-image: url('/images/header-desktop-mockup.png');
     background-size: cover;
     background-position: center;
     height: 300px;
