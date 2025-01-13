@@ -14,18 +14,22 @@
     .header-image {height: 40%;}
 } 
 
+/* .header a, h1, h2 {
+    color: #02027a;
+} */
 
 :root {
-    --primary: #000000;
-    --secondary:
+    --primary: #02027a;
+    --secondary: rgb(34,48,89)
     --content:var(--primary);
-    --code-bg: #ffffff;
+    --code-bg: rgb(255,255,255);
     --main-width: 1024px;
     /* --nav-width: 1024px; */
 }
 
-body {
-    background-color: white;
+body .post-content {
+    background-color: #ffffff;
+    color: #26272b;
 }
 
 .logo {
