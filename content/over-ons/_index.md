@@ -1,7 +1,7 @@
 ---
-title: "Over de SOW"
-date: 2025-01-12
+date: "2025-01-12"
 draft: false
+title: Over de SOW
 ---
 
 ## Over de SOW

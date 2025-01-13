@@ -1,15 +1,12 @@
 ---
-title: "Stichting Oud-leden der GSZC “De Walvisch”"
-date: 2025-01-12
-draft: false
 cover:
-  image: "images/header-desktop-mockup.png"
-  # can also paste direct link from external site
-  # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-  alt: "<alt text>"
-  caption: "<text>"
-  relative: true # To use relative path for cover image, used in hugo Page-bundles
-
+  alt: <alt text>
+  caption: <text>
+  image: images/header-desktop-mockup.png
+  relative: true
+date: "2025-01-12"
+draft: false
+title: Stichting Oud-leden der GSZC “De Walvisch”
 ---
 
 Er komt voor alle Walvischers een dag dat er afgestudeerd wordt. Nou ja, voor de helft van alle leden ongeveer. Als op de trappen van het academiegebouw de levertraan ingenomen is en de haring is gehapt, wordt het tijd om je in het echte leven te storten.
