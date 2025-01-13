@@ -9,7 +9,7 @@ De Stichting Oud-leden der GSZC “De Walvisch”  is opgericht op 12 juni 1992.
 > "De doelstelling van de stichting Oud-leden van “De Walvisch” is het aanhouden en versterken van de banden tussen G.S.Z.C. “De Walvisch” en haar oud-leden. Onder deze oud-leden worden ook de damesch van de G.V.S.Z. “Zwam niet, maar Zwem” gerekend."  
 
 Daarnaast is de stichting rots in de branding voor het ht. bestuur van De Walvisch. Het bestuur van de SOW staat het bestuur van de vereniging bij met wijze raad & financieel advies.
-![beeld](/oudwalvisch.nl/images/beeld.jpeg)
+![beeld](/images/beeld.jpeg)
 
 ## Bestuur
 
