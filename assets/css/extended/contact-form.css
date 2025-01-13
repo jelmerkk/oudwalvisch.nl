@@ -70,7 +70,7 @@ small {
 }
 
 input:invalid {
-    border-color: #ff6b6b;
+    border-color: var(--primary);
 }
 
 input:valid {
