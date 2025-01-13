@@ -8,8 +8,14 @@ params:
   description: "Website van de Stichting Oud Walvisch"
   defaultTheme: "light"
   ShowBreadCrumbs: false
-  header: true
-  header_image: "/images/header-desktop-mockup.png"
+  disableThemeToggle: true
+  # header: true
+  # header_image: "header-desktop-mockup.png"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
 
   assets:
     css:
