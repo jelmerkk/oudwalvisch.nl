@@ -11,6 +11,9 @@ languageCode = "nl"
   header = true
   header_image = "assets/images/header-desktop-mockup.png"
 
+[params.assets]
+  css = ["css/custom.css"]
+
 [params.homeInfoParams]
   # Title = "Welkom bij Oud Walvisch 🏊‍♂️"
   # Content = "De Stichting Oud Walvisch is ...."
