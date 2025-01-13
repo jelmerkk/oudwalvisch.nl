@@ -1,0 +1,51 @@
+baseURL = "https://jelmerkk.github.io/oudwalvisch.nl/"
+title = "Stichting Oud Walvisch"
+theme = "PaperMod"
+defaultContentLanguage = "nl"
+languageCode = "nl"
+
+[params]
+  description = "Website van de Stichting Oud Walvisch"
+  defaultTheme = "light"
+  ShowBreadCrumbs = false
+  header = true
+  header_image = "/images/header-desktop-mockup.png"
+
+[params.assets]
+  css = ["css/custom.css"]
+
+[params.homeInfoParams]
+  # Title = "Welkom bij Oud Walvisch 🏊‍♂️"
+  # Content = "De Stichting Oud Walvisch is ...."
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 10
+    
+[[menu.main]]
+  identifier = "over-ons"
+  name = "Over Ons"
+  url = "/over-ons/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 50
+
+[[menu.main]]
+  identifier = "gszc"
+  name = "Moederdier"
+  url = "https://www.gszcdewalvisch.nl"
+  weight = 30
+  # Deze parameter zorgt ervoor dat de link in een nieuw tabblad opent
+  params = { target = "_blank" }
+
+[[menu.main]]
+  identifier = "donateur"
+  name = "Donateur worden"
+  url = "/aanmelden/"
+  weight = 40
