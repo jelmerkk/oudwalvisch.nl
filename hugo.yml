@@ -9,8 +9,6 @@ params:
   defaultTheme: "light"
   ShowBreadCrumbs: false
   disableThemeToggle: true
-  # header: true
-  # header_image: "header-desktop-mockup.png"
 
   cover:
     hidden: false
