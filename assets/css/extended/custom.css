@@ -1,5 +1,5 @@
  .header-image {
-    background-image: url('/oudwalvisch.nl/images/header-desktop-mockup.png');
+    background-image: url('/oudwalvisch.nl/images/header-desktop.png');
     background-size: 100%;
     width:var(--nav-width);
     background-position: center;
@@ -12,7 +12,8 @@
 }
 
 @media (max-width: 768px) {
-    .header-image {height: 40%;}
+    .header-image {}
+    background-image: url('/oudwalvisch.nl/images/header-mobile.png');
 } 
 
 /* .header a, h1, h2 {
