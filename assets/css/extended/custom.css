@@ -6,6 +6,7 @@
     display: block;
     margin-left: 50%;
     margin-right: 50%;
+    padding-top: 10px;
     transform: translate(-50%, 0);
     
 }
@@ -25,11 +26,16 @@
     --code-bg: rgb(255,255,255);
     --main-width: 1024px;
     /* --nav-width: 1024px; */
+}  
+
+.main {
+    background-color: #ffffff;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
-body .post-content {
+header {
     background-color: #ffffff;
-    color: #26272b;
 }
 
 .logo {
