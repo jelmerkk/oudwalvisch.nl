@@ -14,7 +14,7 @@
 
 @media (max-width: 400px) {
     .header-image {
-        height: 120px;
+        height: 130px;
         background-image: url('/images/header-mobile.png');
         margin-top: 10px;
         display: block;
