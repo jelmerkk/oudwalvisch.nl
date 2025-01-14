@@ -23,7 +23,7 @@
 } 
 
 :root {
-    --primary: #02027a;
+    --primary: #232f5f;
     --secondary: rgb(34,48,89)
     --content:var(--primary);
     --code-bg: rgb(255,255,255);
