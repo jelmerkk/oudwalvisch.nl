@@ -5,34 +5,16 @@
     </div>
 
     <div class="form-group">
-        <label for="address">Straat + Huisnummer:</label>
-        <input type="text" name="address" id="address" required>
-    </div>
-
-    <div class="form-group">
-        <label for="postcode">Postcode:</label>
-        <input type="text" name="postcode" id="postcode" 
-               pattern="[1-9][0-9]{3}\s?[A-Za-z]{2}" 
-               title="Vul een geldige postcode in (1234AB)"
-               required>
-    </div>
-
-    <div class="form-group">
-        <label for="city">Woonplaats:</label>
-        <input type="text" name="city" id="city" required>
-    </div>
-
-    <div class="form-group">
-        <label for="phone">Telefoonnummer:</label>
-        <input type="tel" name="phone" id="phone" 
-               pattern="[0-9\s\-\+]+"
-               title="Vul een geldig telefoonnummer in"
-               required>
-    </div>
-
-    <div class="form-group">
         <label for="email">E-mailadres:</label>
         <input type="email" name="email" id="email" required>
+    </div>
+
+    <div class="form-group">
+        <label for="birthDate">Geboortedatum:</label>
+        <input type="date" name="birthDate" id="birthDate" 
+               min="1900-01-01" max="2025-12-31"
+               required>
+        <small>Selecteer een datum tussen 1 januari 1900 en vandaag.</small>
     </div>
 
     <div class="form-group">
