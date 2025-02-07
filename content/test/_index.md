@@ -4,4 +4,4 @@ draft: false
 title: Test
 ---
 
-{{< contact_test >}}
+{{< aanmeld_test >}}
